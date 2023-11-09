@@ -36,8 +36,8 @@
 <form class="container-fluid justify-content-start">
   <a class="navbar-brand m-2 text-white" href="index.php">Accueil</a>
   <ul class="navbar-nav ">
-  <li class="nav-item mx-2"><a class="nav-link text-muted" href="euro_million.html">Euro-millon</a></li>
-  <li class="nav-item mx-2 "><a class="nav-link text-white-50" href="loto.html">LOTO</a></li>
+  <!--<li class="nav-item mx-2"><a class="nav-link text-muted" href="euro_million.html">Euro-millon</a></li>
+  <li class="nav-item mx-2 "><a class="nav-link text-white-50" href="loto.html">LOTO</a></li>-->
   <li class="nav-item mx-2"><a class="nav-link text-light" href="#">A propos</a></li>
   </ul>
 

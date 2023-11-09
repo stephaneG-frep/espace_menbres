@@ -1,5 +1,4 @@
-
-
+<?php session_start();?>
 
 <!DOCTYPE html>
 <html>
@@ -8,16 +7,52 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Euro-million</title>
+  <link  rel="stylesheet" href="include/bootstrap.min.css">
   <link href="include/euro_million.css" rel="stylesheet" >
 </head>
 
+<div class="navbar navbar-expand navbar-dark bg-dark">
+  <nav class="navbar bg-body-tertiary">
+  <form class="container-fluid justify-content-start">
+    <a class="navbar-brand m-2 text-white" href="index.php">Accueil</a>
+    <ul class="navbar-nav ">
+    <li class="nav-item mx-2"><a class="nav-link text-muted" href="euro_million.html">Euro-millon</a></li>
+    <li class="nav-item mx-2 "><a class="nav-link text-white-50" href="loto.html">LOTO</a></li>
+    <li class="nav-item mx-2"><a class="nav-link text-light" href="#">A propos</a></li>
+    </ul>
+  
+    <ul class="navbar-nav">
+  
+    <?php
+    if(isset($_SESSION['id'])){
+    ?>
+    <button type="button" class="btn btn-danger btn-outline mx-2"><a href="deconnexion.php"> Deconnexion</a></button>
+    <button type="button" class="btn btn-danger btn-outline mx-2"><a href="profil.php">Profil</a></button>
+    <?php
+    }
+    else{ ?>
+      <button type="button" class="btn btn-warning btn-outline mx-2"><a href="inscription.php">Inscription</a></button>
+      <button type="button" class="btn btn-warning btn-outline mx(2"><a href="connexion.php">Connexion</a></button>
+    </ul>
+    </nav>
+    </form>
+  
+  
+    </div>
+    <?php
+  
+    }
+    ?>
+  
+
+
+
+
 <body>
-  <h1 style="font-family: 'Times New Roman', Times, serif;
-  text-align: center;color: darkred;">BIENVENU SUR LA PAGE EURO-MILLION</h1>
+  <h1 style="text-align: center; margin-top: 80px; margin-bottom: 80px">
+      BIENVENU SUR LA PAGE EURO-MILLION</h1>
   <div class="titre">
-    <h1 style="font-family: Georgia; color: #2814dc;
-    text-shadow: 5px 5px 5px rgb(82, 71, 71) ;"
-    >Bonne chance pour le tirage de l'euro million</h1>
+    <h1 style="margin-bottom: 80px">Bonne chance pour le tirage de l'euro million</h1>
   </div>
 
 <div class="container">

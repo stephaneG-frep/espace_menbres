@@ -62,7 +62,8 @@ if(isset($_POST['connexion'])){
                     setcookie($_COOKIE['password'],"");
                 }
             }
-            header('location:index.php');
+            //header('location:index.php');
+            header('Location:euro_million.html');
         }
         else {
             $message = " mot de passe non valide";
