@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #a5d7e3;
+    font-family: georgia;
+}
+.titre {
+    text-align: center;
+    background-color: #66aaff;
+    color: blue;
+    text-shadow: 5px 5px 5px red;
+}
+h1 {
+    font-family: georgia;
+}
+.container {
+    width: auto;
+    height: auto;
+    background-color: #80a8c4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 170px;
+    border-radius: 50%;
+    border: 2px solid #004159;
+    box-shadow: 6px 16px 16px brown;
+    background: #789cd1;
+    color: #810000;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: all 4s easy-in;
+}
+.box:hover {
+    background: conic-gradient(#5b4ef5, #ffff6e);
+    width: 200px;
+    height: 200px;
+    rotate: 360deg;
+}
+#btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px double #0067ff;
+    box-shadow: 6px 8px 14px #2d2ce0;
+    background: conic-gradient(#00e7ff, #b32ce4);
+    color: #2d2ce0;
+    font-size: 35px;
+    transition: all 6s easy-in;
+}
+#btn2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #2bff03;
+    box-shadow: 6px 8px 10px #00de00;
+    background: conic-gradient(#009a00, #f7f846);
+    color: #6eff00;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px double #3b57f1;
+    box-shadow: 6px 8px 10px #3ef7f9;
+    background: conic-gradient(#00aef2, #f1f1f1);
+    color: #287be7;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px double #3b20f9;
+    box-shadow: 5px 6px 10px #ff009c;
+    background: conic-gradient(#00cbff, #ff3dff);
+    color: #ff009c;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px double #3b20f9;
+    box-shadow: 5px 6px 10px #ff009c;
+    background: conic-gradient(#00cbff, #ff3dff);
+    color: #ff009c;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px double #3bedf9;
+    box-shadow: 5px 6px 10px #5400ff;
+    background: conic-gradient(#006296, #00cd96);
+    color: #baff00;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn7 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px double #3bebf9;
+    box-shadow: 5px 6px 10px #5400ff;
+    background: conic-gradient(#006296, #00cd96);
+    color: #baff00;
+    font-size: 25px;
+    transition: all 6s easy-in;
+}
+#btn:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn2:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn3:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn4:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn5:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn6:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
+#btn7:hover {
+    background-color: #4ecccc;
+    width: 80px;
+    height: 80px;
+    rotate: 360deg;
+}
