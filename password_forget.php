@@ -38,7 +38,7 @@ if(isset($_POST['password_forget'])){
 
                 $update = $bdd->prepare('UPDATE menbres.table_menbres SET
                 token = :token WHERE email = :email');
-                $update->bindvalue(':token', $_token);
+                $update->bindvalue(':token', $token);
                 $update->bindvalue(':email', $_POST['email']);
                 $update->execute();
 

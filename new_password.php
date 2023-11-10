@@ -16,7 +16,7 @@ if($_GET){
     }
 if(!empty($email) && !empty($token)){
 
-    require_once 'include/start_bdd.php';
+    require_once ('include/start_bdd.php');
 
     $requete = $bdd->prepare('SELECT * FROM menbres.recup_password WHERE 
     email=:email AND token=:token ');
@@ -46,13 +46,12 @@ if(!empty($email) && !empty($token)){
                 $result = $requete->execute();
 
                 if($result){
-                    $message = 'Votre email est bien réinitialisé <a href
-                ="connexion.php">Connexion</a>';
+                    echo 'Votre email est bien réinitialisé';
 
 
                 }else{
-                    $message = "Mot de passe non réinitialisé";
-                    //header('Location:connexion.php');
+                    
+                    header('Location:connexion.php');
                 }
             }
         }
@@ -62,7 +61,7 @@ if(!empty($email) && !empty($token)){
 }else{
     header('Location:inscription.php');
 }
-if(isset($message)) echo $message;
+
 ?>
 
 <div id="login">

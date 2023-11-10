@@ -1,4 +1,6 @@
-<?php require 'include/header.php';?>
+<?php require 'include/header.php';
+    require 'include/footer.php'; ?>
+
 <title>Accueil</title>
 </head><body>
 </div>
@@ -7,10 +9,12 @@
 <h5 class="text-center text-warning pt-6">
     Cette application est faite pour les gens qui ne savent pas quels numéros jouer</h5>
 
+
+
     <canvas></canvas>
 
-
 <script src="include/app.js"></script>
+
 
 </body>
 </html>

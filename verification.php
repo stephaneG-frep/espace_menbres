@@ -43,6 +43,6 @@ if($_GET){
     
     }
 }
-if(isset($message)) echo $message;
+//if(isset($message)) echo $message;
 
 ?>
