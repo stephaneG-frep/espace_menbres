@@ -5,6 +5,7 @@
 <head>
 
     <link  rel="stylesheet" href="include/bootstrap.min.css">
+    <link href="include/style.css" rel="stylesheet" >
 
 <style>
     body {
@@ -64,3 +65,8 @@
   }
   ?>
 
+
+
+<body>
+
+</html> 
