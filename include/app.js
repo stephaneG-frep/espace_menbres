@@ -31,7 +31,7 @@ class Particule {
         this.draw()
     }
 }
-const particule1 = new Particule(10,10,50,55,10,"#f1f1f1")
+const particule1 = new Particule(10,10,50,55,10,"f1f1f1")
 console.log(particule1);
 
 let particulesArray;
@@ -52,7 +52,7 @@ function init(){
         const directionX = cleanDirection();
         const directionY = cleanDirection();
 
-        particulesArray.push(new Particule(x,y,directionX,directionY,size,"#f1f1f1"))
+        particulesArray.push(new Particule(x,y,directionX,directionY,size,"#fd0327"))
     }
 }
 init()
