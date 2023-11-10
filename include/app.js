@@ -31,18 +31,21 @@ class Particule {
         this.draw()
     }
 }
-const particule1 = new Particule(10,10,50,55,2,"#f1f1f1")
+const particule1 = new Particule(10,10,50,55,10,"#f1f1f1")
 console.log(particule1);
 
 let particulesArray;
 
 function init(){
+
     particulesArray = [];
+
     const numberOfParticules = (canvas.height * canvas.width) / 4000;
 
     for(let i = 0; i < numberOfParticules; i++){
 
         const size = (Math.random() * 2) + 1
+
         const x = Math.random() * ((innerWidth - 10) - 10 + 1) + 10;
         const y = Math.random() * ((innerHeight - 10) - 10 + 1) + 10;
 
@@ -80,7 +83,7 @@ function connect(){
 
     for(let i = 0; i < particulesArray.length; i++){
 
-        for(let j = i + 1; j < particulesArray.length; J++){
+        for(let j = i + 1; j < particulesArray.length; j++){
 
             const squaredDistanceX = (particulesArray[i].x - particulesArray[j].x) *
             (particulesArray[i].x - particulesArray[j].x)
