@@ -51,9 +51,8 @@
   }
   else{ ?>
 
-    <img class="d-block m-4 "
-    src="include/sortir.png" alt="" width="30" height="30">
-    <li class="nav-item mx-2"><a class="nav-link text-light" href="">Insrivez-vous</a></li>
+    
+    <li class="nav-item mx-2"><a class="nav-link text-danger" href="">>>>-- : Insrivez-vous, n'esitez plus. >>></a></li>
 
     <button type="button" class="btn btn-warning btn-outline mx-2"><a href="inscription.php">Inscription</a></button>
     <button type="button" class="btn btn-warning btn-outline mx(2"><a href="connexion.php">Connexion</a></button>
