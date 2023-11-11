@@ -37,9 +37,7 @@
 <form class="container-fluid justify-content-start">
   <a class="navbar-brand m-2 text-white" href="index.php">Accueil</a>
   <ul class="navbar-nav ">
-  <!--<li class="nav-item mx-2"><a class="nav-link text-muted" href="euro_million.html">Euro-millon</a></li>
-  <li class="nav-item mx-2 "><a class="nav-link text-white-50" href="loto.html">LOTO</a></li>-->
-  <li class="nav-item mx-2"><a class="nav-link text-light" href="#">A propos</a></li>
+  
   </ul>
 
   <ul class="navbar-nav">
@@ -52,6 +50,11 @@
   <?php
   }
   else{ ?>
+
+    <img class="d-block m-4 "
+    src="include/sortir.png" alt="" width="30" height="30">
+    <li class="nav-item mx-2"><a class="nav-link text-light" href="">Insrivez-vous</a></li>
+
     <button type="button" class="btn btn-warning btn-outline mx-2"><a href="inscription.php">Inscription</a></button>
     <button type="button" class="btn btn-warning btn-outline mx(2"><a href="connexion.php">Connexion</a></button>
   </ul>

@@ -22,12 +22,7 @@
                     </tr>
                     
                     <tr>
-                        <td>Adresse email:  </td><td><?=$_SESSION['email'] ?></td>
-                    </tr>
-
-
-                    <tr>
-                        <td><a href="modif_profil.php">Modifier mon profil : </a>  </td>
+                        <td>Commentaires:  </td><td><?=$_SESSION['commentaire'] ?></td>
                     </tr>
 
                 </table>
